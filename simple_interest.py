@@ -1,4 +1,4 @@
-principal = 1500
+principal = 1000
 rate = 0.05
 time = 3.5
 simple interest formula = P * R * T 
