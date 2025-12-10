@@ -42,7 +42,7 @@ def view_list() -> None:
 	for idx, item in enumerate(shopping_list, start=1):
 		print(f"{idx}. {item}")
 		
-def display_menu() -> None:
+def display_menu():
 	print("Shopping List Manager")
 	print("1. Add item")
 	print("2. Remove item")	
