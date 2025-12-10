@@ -21,22 +21,15 @@ FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 
-def convert_to_celsius(fahrenheit: Union[int, float]) -> float:
-	"""Convert Fahrenheit to Celsius using the global factor.
-
-	Formula: (F - 32) * (5/9)
-	"""
-	f = float(fahrenheit)
-	return (f - 32.0) * FAHRENHEIT_TO_CELSIUS_FACTOR
+def convert_to_celsius(fahrenheit):
+	f =float(fahrenheit)
+	return (f - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 
-def convert_to_fahrenheit(celsius: Union[int, float]) -> float:
-	"""Convert Celsius to Fahrenheit using the global factor.
-
-	Formula: C * (9/5) + 32
-	"""
+def convert_to_fahrenheit(celsius):
+	
 	c = float(celsius)
-	return c * CELSIUS_TO_FAHRENHEIT_FACTOR + 32.0
+	return float(celsius) * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
 
 
 def _prompt_and_convert() -> None:
