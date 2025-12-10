@@ -16,9 +16,9 @@ from typing import Union
 
 # Global conversion factors
 # Multiply by FAHRENHEIT_TO_CELSIUS_FACTOR after subtracting 32
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5.0 / 9.0
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 # Multiply Celsius by CELSIUS_TO_FAHRENHEIT_FACTOR and add 32
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9.0 / 5.0
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 
 def convert_to_celsius(fahrenheit: Union[int, float]) -> float:
