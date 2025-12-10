@@ -41,6 +41,13 @@ def view_list() -> None:
 	print("Shopping list:")
 	for idx, item in enumerate(shopping_list, start=1):
 		print(f"{idx}. {item}")
+		
+def display_menu() -> None:
+	print("Shopping List Manager")
+	print("1. Add item")
+	print("2. Remove item")	
+	print("3. View list")	
+	print("4. Exit")    
 
 def main() -> None:
 	"""Interactive menu loop."""
