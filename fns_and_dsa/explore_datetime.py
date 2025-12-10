@@ -52,10 +52,10 @@ def main():
             display_current_datetime()
         elif choice == "2":
             try:
-                days = int(input("Enter number of days to add to the current date:"))
-                calculate_future_date(days)
+                 days = int(input("Enter the number of days to add to the current date: "))
+                 calculate_future_date(days)
             except ValueError:
-                print("Invalid input. Please enter an integer.")
+                  print("Invalid input. Please enter an integer.")
         elif choice == "3":
             print("Goodbye!")
             break
